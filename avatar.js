@@ -14,7 +14,7 @@ const token = 'Mzg2MzM1NTI5NDMzNTYzMTM3.DQOcEw.3M9xTOuKbMoGOHl7nLcvfS8crao';
 // The ready event is vital, it means that your bot will only start reacting to information
 // from Discord _after_ ready is emitted
 client.on('Hey Monokuma?', () => {
-  console.log('What's your command, you bastard?');
+  console.log('What is your command, you bastard?');
 });
 
 // Create an event listener for messages
